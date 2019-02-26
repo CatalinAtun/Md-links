@@ -17,3 +17,13 @@ function readFiles(){
     return false;
   }
  console.log(readFiles());
+
+
+ const fs = require('fs');
+
+function run(){ 
+    fs.readdir(process.argv[2], function cb(err, data){ // readdir tira en un array las carpetas que hay
+      console.log((data))
+    })
+    }
+    run();
