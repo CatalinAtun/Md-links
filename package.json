@@ -1,4 +1,19 @@
 {
-  "name": "md-links",
-  "version": "0.1.0"
+  "name": "testing-links",
+  "version": "1.0.0",
+  "description": "test if the links of a md file are running or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CatalinaCampos/SCL007-md-links.git"
+  },
+  "author": "Catalina Campos Cáceres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CatalinaCampos/SCL007-md-links/issues"
+  },
+  "homepage": "https://github.com/CatalinaCampos/SCL007-md-links#readme"
 }
