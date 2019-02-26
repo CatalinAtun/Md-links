@@ -24,8 +24,8 @@ function run(){
         if(extension === '.md'){
                 fetch(link).then((response)=>{    
             if(response.statusText === "OK"){
-                console.log(link) + " " +'Página funcionando'}})
+                console.log(chalk.cyan(link) + " " +chalk.black.bgGreen('Página funcionando'))}})
                 fetch(link).then((response)=>{
                 if(response.statusText === 404 || response.statusText === 'Not Found'){
-                    console.log(link)+" "+'Página fuera de servicio'}})
+                    console.log(chalk.cyan(link)+" "+chalk.black.bgRed('Página fuera de servicio'))}})
                 }})
