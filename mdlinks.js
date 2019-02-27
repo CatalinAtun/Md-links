@@ -17,18 +17,18 @@ const prom = new Promise((resolve, reject)=>{
                     console.log({
                         "Link": link,
                         "Validation": "OK",
-                        "Ruta": "ruta"
+                        "Ruta": absolutePath
                     })
                 }else{
                     console.log({
                         "Link": link,
                         "Validation": "No funcionando",
-                        "Ruta": "ruta"
+                        "Ruta": absolutePath
                     })}}).catch(err=>{
                         console.log({
                             "Link": link,
                             "Validation": "No funcionando",
-                            "Ruta": "ruta"
+                            "Ruta": absolutePath
                         })
                     })
                 }))}})
