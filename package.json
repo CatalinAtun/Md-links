@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/CatalinaCampos/SCL007-md-links/issues"
   },
-  "homepage": "https://github.com/CatalinaCampos/SCL007-md-links#readme"
+  "homepage": "https://github.com/CatalinaCampos/SCL007-md-links#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "markdown-link-extractor": "^1.2.0",
+    "node-fetch": "^2.3.0"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true
+  }
 }
