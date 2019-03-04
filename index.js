@@ -1,3 +1,3 @@
-const mdLink = require('./main.js')
+const mdLinks = require('./main.js')
 
-module.exports = mdLink
+module.exports = mdLinks
